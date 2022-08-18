@@ -1,6 +1,10 @@
 import styled, { css } from 'styled-components'
 
 export const HeaderContainer = styled.header`
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
   width: 100%;
   height: 6.5rem;
   background: ${({ theme }) => theme.colors['base-background']};
