@@ -7,7 +7,7 @@ interface QuantityInputProps {
 }
 
 export function QuantityInput({
-  quantity,
+  quantity = 1,
   size = 'medium',
 }: QuantityInputProps) {
   return (
